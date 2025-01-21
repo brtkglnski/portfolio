@@ -21,11 +21,11 @@ const Introduction = () => {
             <button className="mr-3 text-white border-2 border-white border-solid w-28 h-8 rounded-md flex items-center justify-center"><img className="w-4 h-4 mr-2" src={downloadIcon} alt="download" />CV</button>
             <a href="https://github.com/brtkglnski" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={githubIcon} alt="github" /></a>
             <a href="https://x.com/teehfuel" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={xIcon} alt="x" /></a>
-            <a href="http://" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={linkedinIcon} alt="linkedIn" /></a>
+            <a href="www.linkedin.com/in/bartosz-gliński-44539b1b9" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={linkedinIcon} alt="linkedIn" /></a>
         </div>
     </div>
     <div className="flex justify-center items-center">
-    <img src={selfImage} className="w-4/5 max-h-full md:h-full rounded-full"></img>
+    <img src={selfImage} className="w-4/5 max-h-full md:h-full rounded-full "></img>
     </div>
         </div>
     );
