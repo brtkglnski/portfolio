@@ -13,7 +13,10 @@ export default {
         '4rem': '4rem', 
         '8rem': '8rem', 
         '12rem': '24rem'
-      }
+      },
+      clipPath: {
+        inset: 'inset(0)',
+      },
     },
   },
   plugins: [],
