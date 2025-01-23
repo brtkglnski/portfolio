@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Timeline from './Timeline';
 const Experience = () => {
     const [activeTab, setActiveTab] = useState("work");
     return (
@@ -20,7 +21,7 @@ const Experience = () => {
                   onClick={()=> setActiveTab("education")}>Education</button>
             </div>
             <div className="border-2 w-full h-full rounded-md mt-4 lg:mt-2 text-white flex justify-center items-center">
-                {activeTab === "work" ? "experience here" : "education here"}
+                {activeTab === "work" ? <Timeline type="work"/> : <Timeline type="education"/>}
             </div>
         </div>
     )
