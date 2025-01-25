@@ -1,5 +1,5 @@
 import React from "react";
-import globeIcon from "../assets/globeIcon.svg"
+import globeIcon from "../assets/icons/globeIcon.svg"
 const ProjectCard = ({cover, title, description, tags, source, sourceName}) => {
 
     const tagElements = [];

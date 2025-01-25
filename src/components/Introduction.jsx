@@ -1,9 +1,10 @@
 import React from "react";
 import selfImage from '../assets/self.png';
-import githubIcon from '../assets/githubIcon.svg';
-import xIcon from '../assets/xIcon.svg';
-import linkedinIcon from '../assets/linkedinIcon.svg';
-import downloadIcon from '../assets/downloadIcon.svg';
+import github from '../assets/logos/github.svg';
+import x from '../assets/logos/x.svg';
+import linkedin from '../assets/logos/linkedin.svg';
+import downloadIcon from '../assets/icons/downloadIcon.svg';
+import pinIcon from '../assets/icons/pinIcon.svg';
 const Introduction = () => {
     return (
         <div className="flex justify-center items-center">
@@ -17,12 +18,14 @@ const Introduction = () => {
         Fullstack 
         </span> Developer</p>
         <p className="text-lg text-gray-400 mb-4">Niezły ten tailwind xdd</p>
-        <p className="text-lg text-gray-400  mb-4">Katowice, Poland</p>
+        <p className="text-md text-gray-400  mb-4 flex flex-row items-center">
+            <img src={pinIcon} className="h-6 aspect-square"/>
+        Katowice, Poland</p>
         <div className="flex flex-row justify-center lg:justify-start">
             <button className="mr-3 text-white border border-white border-solid w-28 h-8 rounded-md flex items-center justify-center"><img className="w-4 h-4 mr-2" src={downloadIcon} alt="download" />CV</button>
-            <a href="https://github.com/brtkglnski" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={githubIcon} alt="github" /></a>
-            <a href="https://x.com/teehfuel" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={xIcon} alt="x" /></a>
-            <a href="https://linkedin.com/in/bartosz-gliński-44539b1b9" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={linkedinIcon} alt="linkedIn" /></a>
+            <a href="https://github.com/brtkglnski" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8 filter invert" src={github} alt="github" /></a>
+            <a href="https://x.com/teehfuel" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={x} alt="x" /></a>
+            <a href="https://linkedin.com/in/bartosz-gliński-44539b1b9" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8" src={linkedin} alt="linkedIn" /></a>
         </div>
     </div>
     <div className="flex justify-center items-center">
