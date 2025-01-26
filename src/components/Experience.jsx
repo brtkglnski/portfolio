@@ -4,7 +4,7 @@ import Timeline from './Timeline';
 const Experience = () => {
     const [activeTab, setActiveTab] = useState("work");
     return (
-        <div className="w-full min-h-full flex flex-col justify-center items-start">
+        <div id="experience" className="w-full min-h-full flex flex-col justify-center items-start scroll-mt-24 animate-fade animate-once animate-duration-[600ms] animate-delay-[200ms]">
             <h1 className=" pl-8 pb-6 text-3xl font-customFont text-white">Experience</h1>
         <div className="w-full h-auto flex flex-col justify-center p-4">
             <div className="w-full border border-white h-12 w-8 rounded-md flex flex-row items-center">
@@ -22,9 +22,11 @@ const Experience = () => {
                   }`}
                   onClick={()=> setActiveTab("education")}>Education</button>
             </div>
-            <div className="border w-full h-auto rounded-md mt-4 lg:mt-2 text-white flex justify-center items-center">
+            <div className={`border w-full h-auto rounded-md mt-4 lg:mt-2 text-white flex justify-center items-center 
+                animate-duration-200 animate-ease-out animate-normal ${activeTab === 'work' ? " animate-delay-[0ms] animate-fade-left": " animate-delay-[0ms] animate-fade-right"}`}>
                 {activeTab === "work" ? <Timeline type="work"/> : <Timeline type="education"/>}
-            </div>
+                
+                </div>
         </div>
         </div>
     )

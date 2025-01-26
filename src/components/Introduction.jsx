@@ -8,17 +8,17 @@ import pinIcon from '../assets/icons/pinIcon.svg';
 const Introduction = () => {
 
     return (
-        <div className="flex justify-center pt-16 pb-16 lg:pt-48 lg:pb-48 items-center border-b border-gray-700">
-        <div className="flex flex-col-reverse lg:flex-row justify-center items-center">
+        <div  id="about" className="flex justify-center pt-16 pb-16 lg:pt-48 lg:pb-48 items-center border-b border-gray-700">
+        <div className="flex flex-col-reverse lg:flex-row justify-center items-center animate-fade-up animate-once animate-duration-[800ms] animate-delay-200">
     <div className=" p-8 md:m-0 w-full lg:pr-0">
         <p className="text-5xl text-white mb-4 font-customFont">Bartosz Gliński</p>
         <p className="text-lg text-gray-400">
         <span 
-        className="bg-gradient-to-r from-blue-600 to-purple-400
+        className="bg-gradient-to-r from-blue-500 to-purple-500
         inline-block text-transparent bg-clip-text">
         Fullstack 
         </span> Developer</p>
-        <p className="text-lg text-gray-400 mb-4">coś tam o sobie tutaj napisać</p>
+        <p className="text-lg text-gray-400 mb-4">insert something about yourself here</p>
         <p className="text-md text-gray-400  mb-4 flex flex-row items-center">
             <img src={pinIcon} className="h-6 aspect-square"/>
         Katowice, Poland</p>
