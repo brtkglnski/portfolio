@@ -4,6 +4,8 @@ import Timeline from './Timeline';
 const Experience = () => {
     const [activeTab, setActiveTab] = useState("work");
     return (
+        <div className="w-full min-h-full flex flex-col justify-center items-start">
+            <h1 className=" pl-8 pb-6 text-3xl font-customFont text-white">Experience</h1>
         <div className="w-full h-auto flex flex-col justify-center p-4">
             <div className="w-full border border-white h-12 w-8 rounded-md flex flex-row items-center">
             <button className={`w-1/2 rounded-md h-full flex items-center justify-center
@@ -23,6 +25,7 @@ const Experience = () => {
             <div className="border w-full h-auto rounded-md mt-4 lg:mt-2 text-white flex justify-center items-center">
                 {activeTab === "work" ? <Timeline type="work"/> : <Timeline type="education"/>}
             </div>
+        </div>
         </div>
     )
 }

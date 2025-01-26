@@ -1,5 +1,6 @@
 import React from "react";
-import globeIcon from "../assets/icons/globeIcon.svg"
+import globeIcon from "../assets/icons/globeIcon.svg";
+import Tilt from 'react-parallax-tilt';
 const ProjectCard = ({cover, title, description, tags, source, sourceName}) => {
 
     const tagElements = [];
@@ -9,9 +10,11 @@ const ProjectCard = ({cover, title, description, tags, source, sourceName}) => {
 
     return (
         <div className="p-4">
-    <div className="w-full h-full rounded-md border border-white">
-        <div className="p-6 pb-2 pt-6">
-        <img src={cover} alt="Project preview" className="aspect-video bg-white rounded-md" />
+    <div className="w-full h-full rounded-md border border-white transition duration-300 ease-in-out filter lg:grayscale hover:grayscale-0">
+        <div className="p-6 pb-2 pt-4">
+        <Tilt scale={1.20} tiltMaxAngleX={10} tiltMaxAngleY={10}>
+        <img src={cover} alt="Project preview" className="aspect-video bg-white rounded-md  transition duration-150 ease-in-out hover:-translate-y-2"/>
+        </Tilt>
         </div>
        
         <h2 className=" p-6 pt-2 pb-0 text-xl font-semibold text-white">{title}</h2>

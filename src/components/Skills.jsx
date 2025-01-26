@@ -32,7 +32,7 @@ const Skills = () => {
         ]
     };
     const skillElements = data.skills.map((skill, index) => (
-        <span key={index} className="flex flex-row p-2 pt-1 items-center border border-white rounded-lg m-1 transition duration-300 ease-in-out hover:opacity-50">
+        <span key={index} className="flex flex-row p-2 pt-1 items-center border border-white rounded-lg m-1 ml-0 mr-2 transition duration-300 ease-in-out opacity-60 hover:opacity-100">
             <img src={skill.icon} className="filter invert h-6 w-6" alt="icon" />
             <p className="ml-2">{skill.name}</p>
         </span>
@@ -40,8 +40,8 @@ const Skills = () => {
 
     return (
         <div>
-               <h1 className=" pl-8 pb-6 text-4xl font-semibold text-white">Skills</h1>
-            <div className="flex flex-row flex-wrap text-white">
+               <h1 className=" pl-8 pb-6 text-3xl text-white font-customFont">Skills</h1>
+            <div className="flex flex-row flex-wrap text-white p-4">
             {skillElements}
             </div>
         </div>

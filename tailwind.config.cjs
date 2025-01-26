@@ -17,6 +17,9 @@ export default {
       clipPath: {
         inset: 'inset(0)',
       },
+      fontFamily: {
+        customFont: ['"Unbounded"', "sans-serif"],
+      },
     },
   },
   plugins: [],

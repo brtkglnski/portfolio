@@ -8,7 +8,7 @@ const TimelineEntry = ({date, place, title, highlights, icon}) => {
     });
 
     return (
-        <div className="ml-10 pr-20 w-full h-1/5 flex flex-col relative pt-3 mb-4">
+        <li className="ml-10 pr-20 w-full h-1/5 flex flex-col relative pt-3 mb-4">
             <p className="text-xs text-gray-300">{date}</p>
             <h2 className="font-semibold">{place}</h2>
             <p className="text-sm text-gray-300">{title}</p>
@@ -20,7 +20,7 @@ const TimelineEntry = ({date, place, title, highlights, icon}) => {
                     <img className="aspect-square h-full w-full bg-background object-contain" src={icon} alt=""/>
                 </span>
             </a>
-        </div>
+        </li>
     )
 }
 export default TimelineEntry;

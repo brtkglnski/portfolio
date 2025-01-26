@@ -25,7 +25,7 @@ const Projects = () => {
 
     return (
     <div>
-    <h1 className=" pl-8 pb-6 text-4xl font-semibold text-white">My projects</h1>
+    <h1 className=" pl-8 pb-6 text-3xl font-customFont text-white">My projects</h1>
     <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-auto">
     {projects.map((project, index) => (
                 <ProjectCard 

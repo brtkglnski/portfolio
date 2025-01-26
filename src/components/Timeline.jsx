@@ -41,7 +41,8 @@ const Timeline = ({type}) => {
 };
 const info = data[type] || [];
     return (
-        <div className=" ml-10 w-full h-auto border-l border-white">
+        
+        <ul className="ml-10 w-full h-auto border-l border-white relative">
                         {info.map((item, index) => (
                 <TimelineEntry
                     key={index}
@@ -52,7 +53,7 @@ const info = data[type] || [];
                     highlights={item.highlights}
                 />
                         ))}
-        </div>
+        </ul>
     )
 }
 export default Timeline;
