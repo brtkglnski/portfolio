@@ -11,7 +11,7 @@ const projectsData = [
         cover: 'https://raw.githubusercontent.com/brtkglnski/tablix-vs/4e884aefae46adabbcd55853463f3a7478a6e2a3/image.png',
         title: 'Tablix VS',
         description: 'TablixVS is an interactive web-based game where users compare values from selected tables to guess which elements have higher values. It supports importing tables via the Spotify API and manual additions, distinguishing between the two sources.',
-        tags: ['PHP', 'JavaScript', 'HTML', 'CSS', 'Spotify API', 'AJAX', 'GIMP'],
+        tags: ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS', 'Spotify API', 'AJAX', 'GIMP'],
         source: 'https://github.com/brtkglnski/tablix-vs',
         sourceName: 'GitHub'
     },
