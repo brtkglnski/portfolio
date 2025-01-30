@@ -6,7 +6,7 @@ const Projects = () => {
     const { t } = useTranslation(); 
     return (
     <div  id="projects" className="scroll-mt-24 animate-fade animate-once animate-duration-[600ms] animate-delay-[200ms]">
-    <h1 className=" pl-8 pb-6 text-3xl font-customFont text-black dark:text-white">{t('projects.title')}</h1>
+    <h1 className=" pl-8 pb-6 text-3xl font-customFont text-black dark:text-white transition-colors duration-300">{t('projects.title')}</h1>
     <div className="grid grid-cols-1 lg:grid-cols-2 grid-rows-auto">
     {projectsData.map((project, index) => (
                 <ProjectCard 

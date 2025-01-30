@@ -33,7 +33,8 @@
     },
     "introduction":{
         "description": "napisz cos o sobie tutaj",
-        "location":"Katowice, Śląskie"
+        "location":"Katowice, Śląskie",
+        "resume": "CV"
     },
     "experience": {
         "title":"Doświadczenie",

@@ -8,7 +8,7 @@ const Timeline = ({ type }) => {
   const info = timelineData[type] || [];
 
   return (
-    <ul className="ml-10 w-full h-auto border-l border-black dark:border-white relative">
+    <ul className="ml-10 w-full h-auto border-l border-black dark:border-white relative transition-colors duration-300">
       {info.map((item, index) => (
         <TimelineEntry
           key={index}

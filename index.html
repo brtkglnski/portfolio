@@ -6,6 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <script>
+      (function() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+          document.documentElement.classList.toggle('dark', savedTheme === 'dark');
+          return;
+        }
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', prefersDark);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

@@ -33,7 +33,8 @@
     },
     "introduction":{
         "description": "insert something about yourself here",
-        "location":"Katowice, Poland"
+        "location":"Katowice, Poland",
+        "resume": "Resume"
     },
     "experience": {
         "title":"Experience",

@@ -57,7 +57,7 @@ const Navbar = () => {
 
     return (
         <div className="fixed z-40 p-4 lg:p-8 w-full max-w-3xl h-16 flex flex-row items-center justify-between 
-         font-semibold dark:text-white text-xs md:text-base
+         font-semibold dark:text-white text-xs md:text-base transition-colors duration-300
         filter backdrop-blur-3xl border border-t-0 border-gray-300 dark:border-gray-700 rounded-b-lg
         animate-fade-down animate-once animate-duration-[600ms] animate-delay-[200ms]
         ">
