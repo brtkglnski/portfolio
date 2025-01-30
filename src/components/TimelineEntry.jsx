@@ -1,5 +1,5 @@
 import React from "react";
-import self from "../assets/self.png"
+
 const TimelineEntry = ({date, place, title, highlights, icon}) => {
 
     const HighlightsElements = [];

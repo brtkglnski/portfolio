@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import './i18n'; 
 import Navbar from './components/Navbar';
 import Introduction from './components/Introduction';
 import Experience from './components/Experience';

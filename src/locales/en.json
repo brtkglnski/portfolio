@@ -1,0 +1,55 @@
+{
+    "timeline":{
+    "education": {
+        "entry1": {
+            "date": "September 2022 - May 2027",
+            "place": "Electronic and IT School Complex",
+            "title": "Computer Science - Programming",
+            "highlights": {
+                "1": "INF.03 Qualification - Skilled in creating and managing databases, as well as designing, building, and maintaining websites and web applications.",
+                "2": "INF.04 Qualification - Experienced in designing, programming, and testing advanced web, desktop, and mobile applications to meet diverse user needs.",
+                "3": "Advanced English Matura Exam (Bilingual Level)"
+            }
+        }
+    },
+    "work": {
+        "entry1": {
+            "date": "January 2075 - April 2077",
+            "place": "Dr. Chrome",
+            "title": "Ripperdoc",
+            "highlights": {
+            "1": "Performed various body modification on hundreds of diverse clients",
+            "2": "Involved in repairing and customizing advanced cyberware.",
+            "3": "Built trust within the citizens"
+            }
+        }
+    }
+    },
+    "navbar": {
+        "section1":"About",
+        "section2":"Experience",
+        "section3":"Skills",
+        "section4":"Projects"
+    },
+    "introduction":{
+        "description": "insert something about yourself here",
+        "location":"Katowice, Poland"
+    },
+    "experience": {
+        "title":"Experience",
+        "work-button":"Work",
+        "education-button":"Education"
+    },
+    "skills": {
+        "title":"Skills"
+    },
+    "projects": {
+        "title":"Projects",
+        "project1": {
+            "description":"Treasure Seeker is an engaging Roblox game created as a contest entry, where players explore a diverse island to uncover hidden treasures. This first major project earned third place, showcasing creativity, teamwork, and efficient time management. The game features custom Blender models by my friend pindvs."
+        },
+        "project2": {
+            "description":"TablixVS is an interactive web-based game where users compare values from selected tables to guess which elements have higher values. It supports importing tables via the Spotify API and manual additions, distinguishing between the two sources."
+        }
+    }
+  }

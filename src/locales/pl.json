@@ -1,0 +1,55 @@
+{
+"timeline":{
+    "education": {
+        "entry1": {
+            "date": "Wrzesień 2022 - Maj 2027",
+            "place": "Zespół Szkół Elektronicznych i Informatycznych",
+            "title": "Informatyka - Programowanie",
+            "highlights": {
+                "1": "Kwalifikacja INF.03 - Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych",
+                "2": "Kwalifikacja INF.04 - Projektowanie, programowanie i testowanie aplikacji",
+                "3": "Matura z języka angielskiego na poziomie dwujęzycznym"
+            }
+        }
+    },
+    "work": {
+      "entry1": {
+            "date": "Styczeń 2075 - Kwiecień 2077",
+            "place": "Dr. Chrome",
+            "title": "Ripperdoc",
+            "highlights": {
+                "1": "Przeprowadzanie różnych modyfikacji ciała dla setek klientów",
+                "2": "Zaangażowanie w naprawę i dostosowywanie zaawansowanego cyberwaru",
+                "3": "Zbudowanie zaufania wśród obywateli"
+            }
+        }
+      }
+    },
+    "navbar": {
+      "section1":"O mnie",
+      "section2":"Doświadczenie",
+      "section3":"Umiejętności",
+      "section4":"Projekty"
+    },
+    "introduction":{
+        "description": "napisz cos o sobie tutaj",
+        "location":"Katowice, Śląskie"
+    },
+    "experience": {
+        "title":"Doświadczenie",
+        "work-button":"Praca",
+        "education-button":"Edukacja"
+    },
+    "skills": {
+      "title":"Umiejętności"
+    },
+    "projects": {
+        "title":"Projekty",
+        "project1": {
+            "description":"Treasure Seeker to angażująca gra Roblox, stworzona jako praca konkursowa, w której gracze eksplorują wyspę, aby odkrywać skarby. Ten pierwszy duży projekt zdobył trzecie miejsce, pokazując kreatywność, współpracę i zarządzanie czasem. Gra zawiera modele stworzone w programie Blender przez mojego przyjaciela pindvs."
+        },
+        "project2": {
+            "description":"TablixVS to interaktywna gra internetowa, w której użytkownicy porównują wartości z wybranych tabel, aby zgadnąć, które elementy mają wyższe wartości. Gra obsługuje importowanie tabel za pomocą API Spotify oraz ręczne dodawanie, rozróżniając oba źródła."
+        }
+    }
+}
