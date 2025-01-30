@@ -10,7 +10,7 @@ const Introduction = () => {
     const { t } = useTranslation(); 
 
     return (
-        <div  id="about" className="flex justify-center pt-16 pb-16 lg:pt-48 lg:pb-48 items-center border-b border-gray-300 dark:border-gray-700 transition-colors duration-300">
+        <div  id="about" className="flex justify-center pt-20 pb-8 md:pt-20 md:pb-12 lg:pt-48 lg:pb-48 items-center border-b border-gray-300 dark:border-gray-700 transition-colors duration-300">
         <div className="flex flex-col-reverse lg:flex-row justify-center items-center animate-fade-up animate-once animate-duration-[800ms] animate-delay-200">
     <div className=" p-8 md:m-0 w-full lg:pr-0">
         <p className="text-5xl dark:text-white mb-4 font-customFont transition-colors duration-300">Bartosz Gliński</p>
@@ -35,7 +35,7 @@ const Introduction = () => {
         </div>
     </div>
     <div className="flex justify-center items-center lg:mr-8">
-    <img src={selfImage} className=" w-full max-w-[300px] max-h-[300px] aspect-square rounded-full " alt={"Me!"}></img>
+    <img src={selfImage} className=" w-full max-w-[200px] max-h-[200px] lg:max-w-[300px] lg:max-h-[300px] aspect-square rounded-full " alt={"Me!"}></img>
     </div>
         </div>
         </div>
