@@ -12,7 +12,7 @@ const Skills = () => {
     ));
 
     return (
-        <div  id="skills" className="scroll-mt-24 animate-fade animate-once animate-duration-[600ms] animate-delay-[200ms]">
+        <div  id="skills" className=" scroll-mt-24 animate-fade animate-once animate-duration-[600ms] animate-delay-[200ms]">
                <h1 className=" pl-8 pb-6 text-3xl text-black dark:text-white font-customFont transition-colors duration-300">{t('skills.title')}</h1>
             <div className="flex flex-row flex-wrap text-white p-4 ">
             {skillElements}

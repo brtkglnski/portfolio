@@ -13,7 +13,7 @@ setTimeout(() => {
   document.documentElement.classList.remove("no-transition");
 }, 100);
   return (
-    <main className="grow min-h-screen overflow-x-hidden h-auto overflow-auto relative bg-gray-100 dark:bg-gray-900 bg-grain flex flex-col items-center transition-colors duration-300">
+    <main className="grow min-h-screen overflow-x-hidden h-auto overflow-auto relative bg-blue-50 dark:bg-slate-950 bg-grain flex flex-col items-center transition-colors duration-300">
         <div className="flex flex-col gap-16  z-10  max-w-3xl">
       <Navbar/>
       <Introduction />

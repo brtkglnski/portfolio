@@ -8,7 +8,11 @@ const Experience = () => {
 
     const [activeTab, setActiveTab] = useState("work");
     return (
-        <div id="experience" className="w-full min-h-full flex flex-col justify-center items-start scroll-mt-24 animate-fade animate-once animate-duration-[600ms] animate-delay-[200ms]">
+        <div id="experience" className="relative w-full min-h-full flex flex-col justify-center items-start scroll-mt-24 animate-fade animate-once animate-duration-[600ms] animate-delay-[200ms]">
+                                       <div className="w-full h-full absolute -z-30">
+        <div className="w-full max-w-lg bg-blue-400 h-[6rem] absolute -left-96 bottom-0 blur-[5rem] rounded-full z-10 opacity-40
+         transition-colors duration-300 animate-wiggle-more animate-infinite animate-duration-[4000ms]"></div>
+        </div>
             <h1 className=" pl-8 pb-6 text-3xl font-customFont dark:text-white transition-colors duration-300">{t('experience.title')}</h1>
         <div className="w-full h-auto flex flex-col justify-center p-4">
             <div className="w-full border border-black dark:border-white h-12 w-8 rounded-md flex flex-row items-center transition-colors duration-300">
