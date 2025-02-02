@@ -1,6 +1,6 @@
 import React from "react";
 
-const TimelineEntry = ({date, place, title, highlights, icon}) => {
+const TimelineEntry = ({date, place, title, placeLink, highlights, icon}) => {
 
     const HighlightsElements = [];
     highlights.forEach((highlight, index) => {
@@ -17,7 +17,7 @@ const TimelineEntry = ({date, place, title, highlights, icon}) => {
             </ul>
             <a className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-black dark:bg-white transition-colors duration-300">
                 <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border border-black dark:border-white transition-colors duration-300">
-                    <img className="aspect-square h-full w-full bg-background object-contain" src={icon} alt=""/>
+                    <a className="aspect-square h-full w-full" href={placeLink} target="_blank"><img className="aspect-square h-full w-full bg-background object-contain" src={icon} alt={place}/></a>
                 </span>
             </a>
         </li>

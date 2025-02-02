@@ -12,11 +12,11 @@ const ProjectCard = ({cover, title, description, tags, source, sourceName}) => {
 
     return (
         <div className="p-4">
-    <div className="w-full h-full rounded-md border border-black dark:border-white lg:h-[30rem] lg:max-h-[32rem] 
-    transition duration-300 ease-in-out filter lg:grayscale hover:grayscale-0 transition-colors duration-300">
+    <div className="w-full h-full rounded-lg border border-black dark:border-white lg:h-[30rem] lg:max-h-[32rem] 
+    transition-all duration-300 ease-in-out filter lg:grayscale hover:grayscale-0 ">
         <div className="p-6 pb-2 pt-4">
         <Tilt scale={1.20} tiltMaxAngleX={10} tiltMaxAngleY={10}>
-        <img src={cover} alt="Project preview" className="aspect-video bg-white rounded-md  transition duration-150 ease-in-out hover:-translate-y-2"/>
+        <img src={cover} alt="Project preview" className="aspect-video bg-white rounded-lg transition duration-150 ease-in-out hover:-translate-y-2"/>
         </Tilt>
         </div>
        

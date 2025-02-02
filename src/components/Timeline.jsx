@@ -16,6 +16,7 @@ const Timeline = ({ type }) => {
           date={t(item.date)} 
           place={t(item.place)} 
           title={t(item.title)} 
+          placeLink={t(item.placeLink)} 
           highlights={item.highlights.map(highlight => t(highlight))} 
         />
       ))}

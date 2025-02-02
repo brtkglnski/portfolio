@@ -4,23 +4,22 @@
         "entry1": {
             "date": "September 2022 - May 2027",
             "place": "Electronic and IT School Complex",
-            "title": "Computer Science - Programming",
+            "title": "Information Technology - Programming",
             "highlights": {
-                "1": "INF.03 Qualification - Skilled in creating and managing databases, as well as designing, building, and maintaining websites and web applications.",
-                "2": "INF.04 Qualification - Experienced in designing, programming, and testing advanced web, desktop, and mobile applications to meet diverse user needs.",
+                "1": "INF.03 Qualification - Creating and managing databases, designing, building, and maintaining websites and web applications.",
+                "2": "INF.04 Qualification - Designing, programming, testing advanced web, desktop, and mobile applications to meet user needs.",
                 "3": "Advanced English Matura Exam (Bilingual Level)"
             }
         }
     },
     "work": {
         "entry1": {
-            "date": "January 2075 - April 2077",
-            "place": "Dr. Chrome",
-            "title": "Ripperdoc",
+            "date": "February 2025 - Now",
+            "place": "Freelancer",
+            "title": "Shopify Storefront Developer",
             "highlights": {
-            "1": "Performed various body modification on hundreds of diverse clients",
-            "2": "Involved in repairing and customizing advanced cyberware.",
-            "3": "Built trust within the citizens"
+            "1": "Designed and developed storefronts for various companies using Shopify",
+            "2": "Tailored website content to the clients wants and needs"
             }
         }
     }
@@ -32,7 +31,10 @@
         "section4":"Projects"
     },
     "introduction":{
-        "description": "insert something about yourself here",
+        "description1": "Off-duty movie enjoyer 📼",
+        "description2": "Off-duty minesweeper player 💣",
+        "description3": "Puppy lover 🐶",
+        "description4": "Witcher fanatic ⚔️",
         "location":"Katowice, Poland",
         "resume": "Resume"
     },

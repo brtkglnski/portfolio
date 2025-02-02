@@ -4,7 +4,7 @@
         "entry1": {
             "date": "Wrzesień 2022 - Maj 2027",
             "place": "Zespół Szkół Elektronicznych i Informatycznych",
-            "title": "Informatyka - Programowanie",
+            "title": "Technik Programista",
             "highlights": {
                 "1": "Kwalifikacja INF.03 - Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych",
                 "2": "Kwalifikacja INF.04 - Projektowanie, programowanie i testowanie aplikacji",
@@ -14,14 +14,13 @@
     },
     "work": {
       "entry1": {
-            "date": "Styczeń 2075 - Kwiecień 2077",
-            "place": "Dr. Chrome",
-            "title": "Ripperdoc",
-            "highlights": {
-                "1": "Przeprowadzanie różnych modyfikacji ciała dla setek klientów",
-                "2": "Zaangażowanie w naprawę i dostosowywanie zaawansowanego cyberwaru",
-                "3": "Zbudowanie zaufania wśród obywateli"
-            }
+        "date": "Luty 2025 - Teraz",
+        "place": "Freelancer",
+        "title": "Developer Sklepów Shopify",
+        "highlights": {
+        "1": "Zaprojektowałem a następnie zbudowałem sklepy Shopify dla różnych firm",
+        "2": "Dopasowałem zawartość strony do wymagań i sugestii klientów"
+        }
         }
       }
     },
@@ -32,7 +31,10 @@
       "section4":"Projekty"
     },
     "introduction":{
-        "description": "napisz cos o sobie tutaj",
+        "description1": "Po pracy oglądam filmy 📼",
+        "description2": "Po pracy gram w sapera 💣",
+        "description3": "Lubię pieski 🐶",
+        "description4": "Fanatyk Wiedźmina ⚔️",
         "location":"Katowice, Śląskie",
         "resume": "CV"
     },
