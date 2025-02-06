@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'grain': "url('./src/assets/grain.png')"
+        'grain': "url('https://raw.githubusercontent.com/brtkglnski/portfolio/refs/heads/master/src/assets/grain.png')"
       },
       blur: {
         '4rem': '4rem', 
