@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from 'react';
-import selfImage from '../assets/self.jpg';
+import selfImage from '../assets/altself.jpg';
 import github from '../assets/logos/github.svg';
 import x from '../assets/logos/x.svg';
 import linkedin from '../assets/logos/linkedin.svg';
