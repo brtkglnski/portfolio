@@ -6,6 +6,7 @@ import x from '../assets/logos/x.svg';
 import linkedin from '../assets/logos/linkedin.svg';
 import downloadIcon from '../assets/icons/downloadIcon.svg';
 import pinIcon from '../assets/icons/pinIcon.svg';
+import CV from '../assets/Bartosz_Glinski_CV.pdf';
 import { useTranslation, } from "react-i18next";
 const Introduction = () => {
     const { t } = useTranslation(); 
@@ -31,8 +32,10 @@ const Introduction = () => {
             {t('introduction.location')}</p>
         <div className="flex flex-row justify-center lg:justify-start">
             <button className="mr-3 dark:text-white border border-black dark:border-white border-solid w-28 h-8 rounded-md flex items-center justify-center transition duration-300">
+                <a className="flex items-center justify-center" href={CV}>
                 <img className="w-4 h-4 mr-2 filter invert dark:filter-none transition duration-300" src={downloadIcon} alt="download" />
                 {t('introduction.resume')}
+                </a>
                 </button>
             <a href="https://github.com/brtkglnski" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8 filter dark:invert transition duration-300" src={github} alt="github" /></a>
             <a href="https://x.com/teehfuel" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8 filter invert dark:filter-none transition duration-300" src={x} alt="x" /></a>

@@ -6,9 +6,9 @@
             "place": "Zespół Szkół Elektronicznych i Informatycznych",
             "title": "Technik Programista",
             "highlights": {
-                "1": "Kwalifikacja INF.03 - Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych",
-                "2": "Kwalifikacja INF.04 - Projektowanie, programowanie i testowanie aplikacji",
-                "3": "Matura z języka angielskiego na poziomie dwujęzycznym"
+                "1": "[Maj 2025] Kwalifikacja INF.03 - Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych",
+                "2": "[Maj 2026] Kwalifikacja INF.04 - Projektowanie, programowanie i testowanie aplikacji",
+                "3": "[Maj 2027] Matura z języka angielskiego na poziomie dwujęzycznym"
             }
         }
     },
@@ -16,10 +16,10 @@
       "entry1": {
         "date": "Luty 2025 - Teraz",
         "place": "Freelancer",
-        "title": "Developer Sklepów Shopify",
+        "title": "Front-end Developer",
         "highlights": {
-        "1": "Zaprojektowałem a następnie zbudowałem sklepy Shopify dla różnych firm",
-        "2": "Dopasowałem zawartość strony do wymagań i sugestii klientów"
+        "1": "Brak doświadczenia, otwarty na nowe okazje",
+        "2": "none"
         }
         }
       }
@@ -31,8 +31,8 @@
       "section4":"Projekty"
     },
     "introduction":{
-        "description1": "Po pracy oglądam filmy 📼",
-        "description2": "Po pracy gram w sapera 💣",
+        "description1": "W wolnym czasie oglądam filmy 📼",
+        "description2": "Relaksuje się gotując 🍽️",
         "description3": "Lubię pieski 🐶",
         "description4": "Fanatyk Wiedźmina ⚔️",
         "location":"Katowice, Śląskie",

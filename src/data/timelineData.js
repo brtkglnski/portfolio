@@ -7,22 +7,19 @@ const timelineData = {
         title: 'timeline.education.entry1.title',
         placeLink: 'https://zse.edu.pl/',
         highlights: [
-          'timeline.education.entry1.highlights.1',
-          'timeline.education.entry1.highlights.2',
-          'timeline.education.entry1.highlights.3'
+          'timeline.education.entry1.highlights.1'
         ],
       }
     ],
     work: [
       {
-        icon: 'https://scontent-waw2-1.xx.fbcdn.net/v/t39.30808-6/360100939_654919890000739_516077428062162201_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_aid=0&_nc_ohc=jd6VEQvpwM0Q7kNvgGdAitK&_nc_zt=23&_nc_ht=scontent-waw2-1.xx&_nc_gid=AQhPAmNorz6MIGUYLn1vz7U&oh=00_AYBYEcvDTtKKSrf92eUeFZHBObQBjibis2MeyEI2V4E1Mw&oe=67A5443F',
+        icon: 'https://live.staticflickr.com/2650/3822636980_982ebc39c7_b.jpg',
         date: 'timeline.work.entry1.date',
         place: 'timeline.work.entry1.place',
         title: 'timeline.work.entry1.title',
-        placeLink: 'https://www.shopify.com/',
+        placeLink: 'https://www.pracuj.pl/',
         highlights: [
-          'timeline.work.entry1.highlights.1',
-          'timeline.work.entry1.highlights.2'
+          'timeline.work.entry1.highlights.1'
         ],
       }
     ],
