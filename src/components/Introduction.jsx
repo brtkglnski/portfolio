@@ -31,7 +31,7 @@ const Introduction = () => {
             <img src={pinIcon} className="h-6 aspect-square filter invert dark:filter-none transition duration-300"/>
             {t('introduction.location')}</p>
         <div className="flex flex-row justify-center lg:justify-start">
-            <button className="mr-3 dark:text-white border border-black dark:border-white border-solid w-28 h-8 rounded-md flex items-center justify-center transition duration-300">
+            <button className="mr-3 dark:text-white border border-black dark:border-white border-solid  w-28 h-8 rounded-md flex items-center justify-center transition duration-300">
                 <a className="flex items-center justify-center" href={CV}>
                 <img className="w-4 h-4 mr-2 filter invert dark:filter-none transition duration-300" src={downloadIcon} alt="download" />
                 {t('introduction.resume')}
