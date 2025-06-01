@@ -1,3 +1,5 @@
+import mediarium from '../assets/mediarium.jpg';
+
 const projectsData = [
     {
         cover: 'https://tr.rbxcdn.com/180DAY-c5a5d6cb69d826e9256d970e7fc633ca/768/432/Image/Webp/noFilter',
@@ -13,6 +15,14 @@ const projectsData = [
         description: 'projects.project2.description',
         tags: ['PHP', 'MySQL', 'JavaScript', 'HTML', 'CSS', 'Spotify API', 'AJAX', 'GIMP'],
         source: 'https://github.com/brtkglnski/tablix-vs',
+        sourceName: 'GitHub'
+    },
+    {
+        cover: mediarium,
+        title: 'Mediarium',
+        description: 'projects.project3.description',
+        tags: ['PHP', 'PostgreSQL', 'JavaScript', 'HTML', 'CSS', 'Tailwind CSS', 'Composer', 'Docker', 'Symfony', 'Doctrine', 'Spotify API'],
+        source: 'https://github.com/brtkglnski/mediarium',
         sourceName: 'GitHub'
     },
     

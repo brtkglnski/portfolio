@@ -6,7 +6,7 @@
             "place": "Zespół Szkół Elektronicznych i Informatycznych",
             "title": "Technik Programista",
             "highlights": {
-                "1": "[Maj 2025] Kwalifikacja INF.03 - Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych",
+                "1": "Kwalifikacja INF.03 - Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych",
                 "2": "[Maj 2026] Kwalifikacja INF.04 - Projektowanie, programowanie i testowanie aplikacji",
                 "3": "[Maj 2027] Matura z języka angielskiego na poziomie dwujęzycznym"
             }
@@ -14,13 +14,13 @@
     },
     "work": {
       "entry1": {
-        "date": "Luty 2025 - Teraz",
-        "place": "Freelancer",
-        "title": "Front-end Developer",
-        "highlights": {
-        "1": "Brak doświadczenia, otwarty na nowe okazje",
-        "2": "none"
-        }
+            "date": "Maj 2025",
+            "place": "Tenkai (Software House)", 
+            "title": "Stażysta - Web Developer",
+            "highlights": {
+            "1": "Stworzenie fullstackowej aplikacji internetowej z wykorzystaniem Symfony, Doctrine i Tailwind CSS",
+            "2": "Budowa relacyjnych struktur baz danych w PostgreSQL z naciskiem na czystą architekturę i wydajność"
+            }
         }
       }
     },
@@ -32,9 +32,9 @@
     },
     "introduction":{
         "description1": "W wolnym czasie oglądam filmy 📼",
-        "description2": "Relaksuje się gotując 🍽️",
+        "description2": "Czytam książki 📚",
         "description3": "Lubię pieski 🐶",
-        "description4": "Fanatyk Wiedźmina ⚔️",
+        "description4": "Jeżdżę na rowerze 🚴‍♂️",
         "location":"Katowice, Śląskie",
         "resume": "CV"
     },
@@ -53,6 +53,10 @@
         },
         "project2": {
             "description":"TablixVS to interaktywna gra internetowa, w której użytkownicy porównują wartości z wybranych tabel, aby zgadnąć, które elementy mają wyższe wartości. Gra obsługuje importowanie tabel za pomocą API Spotify oraz ręczne dodawanie, rozróżniając oba źródła."
+        },
+        "project3": {
+            "description":
+            "Mediarium to przejrzysta aplikacja webowa do organizowania i przeglądania mediów w kategoriach takich jak filmy, strony czy muzyka. Użytkownicy mogą grupować wpisy (strony) w konfigurowalne notatniki. Czysty interfejs i elastyczna struktura ułatwiają tworzenie kolekcji i dodawanie własnych elementów."
         }
     }
 }

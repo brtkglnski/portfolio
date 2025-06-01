@@ -6,7 +6,7 @@
             "place": "Electronic and IT School Complex",
             "title": "Information Technology - Programming",
             "highlights": {
-                "1": "[May 2025] INF.03 Qualification - Creating and managing databases, designing, building, and maintaining websites and web applications.",
+                "1": "INF.03 Qualification - Creating and managing databases, designing, building, and maintaining websites and web applications.",
                 "2": "[May 2026] INF.04 Qualification - Designing, programming, testing advanced web, desktop, and mobile applications to meet user needs.",
                 "3": "[May 2027] Advanced English Matura Exam (Bilingual Level)"
             }
@@ -14,6 +14,15 @@
     },
     "work": {
         "entry1": {
+            "date": "May 2025",
+            "place": "Tenkai (Software House)",
+            "title": "Web Development Intern",
+            "highlights": {
+            "1": "Created a full-stack web application utilizing Symfony, Doctrine, and Tailwind CSS",
+            "2": "Built relational database structures in PostgreSQL with a focus on clean architecture and efficiency"
+            }
+        },
+        "entry2": {
             "date": "February 2025 - Now",
             "place": "Freelancer",
             "title": "Front-end Developer",
@@ -32,9 +41,9 @@
     },
     "introduction":{
         "description1": "Off-duty movie enjoyer 📼",
-        "description2": "Cooking is my way to relax 🍽️",
+        "description2": "Bookworm 📚",
         "description3": "Puppy lover 🐶",
-        "description4": "Witcher fanatic ⚔️",
+        "description4": "Biking enthusiast 🚴‍♂️",
         "location":"Katowice, Poland",
         "resume": "Resume"
     },
@@ -53,6 +62,10 @@
         },
         "project2": {
             "description":"TablixVS is an interactive web-based game where users compare values from selected tables to guess which elements have higher values. It supports importing tables via the Spotify API and manual additions, distinguishing between the two sources."
+        },
+        "project3": {
+            "description":
+            "Mediarium is a streamlined web app for organizing and browsing media across categories like videos, websites, and music. Users can group entries (pages) into customizable notebooks, add notes, and import content via APIs or manually. Its clean interface and flexible structure make curating media collections easy."
         }
     }
   }
