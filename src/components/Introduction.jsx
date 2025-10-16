@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from 'react';
-import selfImage from '../assets/altself.jpg';
+import selfImage from '../assets/self.jpg';
 import github from '../assets/logos/github.svg';
 import x from '../assets/logos/x.svg';
 import linkedin from '../assets/logos/linkedin.svg';
@@ -38,7 +38,7 @@ const Introduction = () => {
                 </a>
                 </button>
             <a href="https://github.com/brtkglnski" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8 filter dark:invert transition duration-300" src={github} alt="github" /></a>
-            <a href="https://x.com/teehfuel" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8 filter invert dark:filter-none transition duration-300" src={x} alt="x" /></a>
+            {/* <a href="https://x.com/teehfuel" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8"><img className="w-8 h-8 filter invert dark:filter-none transition duration-300" src={x} alt="x" /></a> */}
             <a href="https://linkedin.com/in/bartosz-gliński-44539b1b9" target="_blank" rel="noopener noreferrer" className="mr-3 w-8 h-8 filter invert dark:filter-none transition duration-300"> <img className="w-8 h-8" src={linkedin} alt="linkedIn" /></a>
         </div>
     </div>

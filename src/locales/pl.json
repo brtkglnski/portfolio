@@ -57,6 +57,10 @@
         "project3": {
             "description":
             "Mediarium to przejrzysta aplikacja webowa do organizowania i przeglądania mediów w kategoriach takich jak filmy, strony czy muzyka. Użytkownicy mogą grupować wpisy (strony) w konfigurowalne notatniki. Czysty interfejs i elastyczna struktura ułatwiają tworzenie kolekcji i dodawanie własnych elementów."
+        },
+        "project4": {
+            "description":
+            "Grakh to fabularna gra RPG osadzona w XVII-wiecznym Krakowie, oparta na systemie zadań, osiągnięć i dialogów prowadzących do dwóch możliwych zakończeń. Projekt wykorzystuje strukturę questów z warunkowym postępem, wewnętrzny system osiągnięć oraz liczne interakcje z postaciami, tworząc spójne i narracyjnie zróżnicowane doświadczenie."
         }
     }
 }
